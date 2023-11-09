@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>DUBX Brain</title>
+</head>
+
+<body>
+    <!-- BG ANIMATION -->
+    <div class="wrapper" style="z-index: 10;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- GLOW -->
+    <div class="dubx">
+        <h1>
+            <span>D</span>
+            <span>U</span>
+            <span>B</span>
+            <span>X</span>
+        </h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+                <!-- PRICE -->
+                <div>
+                    <div>
+                        <button id="popup-btn" class="buttons1">Live Price</button>
+                    </div>
+                    <div id="popup-wrapper" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close" class="close1">&times;</span>
+                            <span>
+                                <a href="https://www.coingecko.com/en/coins/teslafunds/usd?utm_content=teslafunds&amp;utm_medium=coin_ticker_widget&amp;utm_source=teslafunds.io"
+                                    target="_blank" style="font-size: 15px; color: #358fcb;"></a>
+                            </span>
+                            <div class="priceMarket">
+                                <h4 class="statush4" style="color: #358fcb; font-size: 24px; font-weight: 600;">
+                                    <span id="current_price" style="color: #358fcb;">$ 0.02</span>
+                                </h4>
+                            </div>
+                            <p id="price_change_percentage_24h" style="font-size: 20px; color: #ffffff;">( +3.62708 % )
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EXCHANGE -->
+                <div>
+                    <div>
+                        <button id="popup-btn1" class="buttons1">Exchange</button>
+                    </div>
+                    <div id="popup-wrapper1" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close1">&times;</span>
+                            <p>The following link shall take you to the LBank Exchange where you can buy or sell DUBX =>
+                                <a
+                                    href="https://www.lbank.com/trade/dubx_usdt/">https://www.lbank.com/trade/dubx_usdt/</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WEBSITE -->
+                <div>
+                    <div>
+                        <button id="popup-btn2" class="buttons1">Website</button>
+                    </div>
+                    <div id="popup-wrapper2" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close2">&times;</span>
+                            <p>Please click on the following link to be directed to our website where you will find all
+                                the relevant information required. <a href="https://arabianchain.org/">ArabianChain
+                                    Website</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT DUBX -->
+                <div>
+                    <div>
+                        <button id="popup-btn5" class="buttons1">ArabianChain</button>
+                    </div>
+                    <div id="popup-wrapper5" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close5">&times;</span>
+                            <p>About ArabianChain <br> <br>It is the first public, decentralized and consensus-driven
+                                blockchain in the MENA region
+                                Arabianchain Technologies is a Bahrain based venture that is unlocking the potential of
+                                tomorrow’s
+                                economy by enabling today’s blockchain innovation. <br>It allows for self-executing and
+                                globally accessible
+                                smart contracts and decentralized Apps to be developed, and for digital tokens to be
+                                transacted,
+                                tracked and safeguarded over a network of thousands of connected yet distributed
+                                devices.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <!-- DUBX POOL -->
+                <div>
+                    <div>
+                        <button id="popup-btn6" class="buttons1">DUBX Pool</button>
+                    </div>
+                    <div id="popup-wrapper6" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close6">&times;</span>
+                            <p><a href="http://dubxpool.arabianchain.org/">DUBX Pool</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KROKI POOL -->
+                <div>
+                    <div>
+                        <button id="popup-btn7" class="buttons1">Kroki Pool</button>
+                    </div>
+                    <div id="popup-wrapper7" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close7">&times;</span>
+                            <p>DUBX is a Proof of Work cryptocurrency and it is obtained through "mining" with Graphic
+                                Processing Units. If you allreaday have your own mining equipment and would like to
+                                start mining TSF, please click on the following link.. <br>
+                                <a href="http://dubx.krokipool.pro/#/">TSF POOL (EU)</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SOLO MINING -->
+                <div>
+                    <div>
+                        <button id="popup-btn8" class="buttons1">Solo Mining</button>
+                    </div>
+                    <div id="popup-wrapper8" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close8">&times;</span>
+                            <p>The current DUBX reward is 2 coins per block mined + uncle rewards. If you would like to
+                                learn more about the TSF-Network please click on the following links.. <br>
+                                <a href="https://solo-dubx.krokipool.pro/">Kroki Solo Mining Pool</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- SOON -->
+                <div>
+                    <div>
+                        <button id="popup-btn9" class="buttons1">Soon..</button>
+                    </div>
+                    <div id="popup-wrapper9" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close9">&times;</span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <!-- WEB WALLET -->
+                <div>
+                    <div>
+                        <button id="popup-btn12" class="buttons1">Web Wallet</button>
+                    </div>
+                    <div id="popup-wrapper12" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close12">&times;</span>
+                            <p>DUBX has a Web Wallet.
+                                <a href="https://galaxy.arabianchain.org/">Web Wallet</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESKTOP WALLET -->
+                <div>
+                    <div>
+                        <button id="popup-btn13" class="buttons1">Desktop Wallet</button>
+                    </div>
+                    <div id="popup-wrapper13" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close13">&times;</span>
+                            <p>the following link shall take you to the TSF explorer. There you can find all the TSF
+                                transactions, blocks and adresses. The explorer also contains all information about
+                                smart contracts on the TSF-Netwrok
+                                <a href="https://explorer.tsf-platform.com/">Desktop Wallet</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EXPLORER -->
+                <div>
+                    <div>
+                        <button id="popup-btn14" class="buttons1">Explorer</button>
+                    </div>
+                    <div id="popup-wrapper14" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close14">&times;</span>
+                            <p><a href="https://explorer.arabianchain.org/">DUBX Explorer</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHANNELS -->
+                <div>
+                    <div>
+                        <button id="popup-btn17" class="buttons1">Channels</button>
+                    </div>
+                    <div id="popup-wrapper17" class="popup-container">
+                        <div class="popup-content">
+                            <span id="close17">&times;</span>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            jQuery.ajax({
+                type: 'GET',
+                url: 'https://api.coingecko.com/api/v3/coins/teslafunds',
+                dataType: 'json',
+                success: function (response1) {
+                    console.log(response1);
+                    var current_price = response1.market_data.current_price.usd;
+                    console.log(current_price);
+                    jQuery("#current_price").html("$ " + current_price);
+                    console.log(response1.tickers[0]);
+                    console.log(response1.tickers[0].base);
+                },
+                error: function (jqXHR, textStatus) {
+                    console.log(textStatus);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
